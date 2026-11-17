@@ -1,0 +1,9 @@
+# Vendor binaries are large and may have redistribution restrictions.
+packages/
+build-packages.sha256
+
+# Local build output and secrets
+*.log
+.env
+.env.*
+!.env.example
